@@ -1,0 +1,87 @@
+/* Import Montserrat Font */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5398dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Resume Container Styling */
+#resume {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(48, 45, 45, 0.1);
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    border-bottom: 2px solid #636060;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Header Title Styling */
+header h1 {
+    font-size: 2.2rem;
+    margin: 0;
+    color: #131010;
+}
+
+header p {
+    color: #381c1c;
+    font-size: 0.9rem;
+}
+
+/* Section Title Styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #221515;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Skills Button Styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #5f9fe2;
+}
+
+/* Skills Section Styling */
+#skills-section {
+    margin-top: 10px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #555;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="resume">
+        <header>
+            <h1>Personal Infomation</h1>
+            <p>Name: Laiba Abdulhaq </p>
+            <p>Email: laibaabdulhaq39@gmail.com </p>
+        </header>
+
+        <section>
+            <h2>Education</h2>
+            <p>Matriculation: NED Foundation School</p>
+            <p>Intermediate: SMB Fatima Jinnah College</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <button onclick="toggleSection('skills-section')"> Skills</button>
+            <div id="skills-section">
+                <ul>
+                    <li>JavaScript, TypeScript, HTML, CSS</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <p>Fresher</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
